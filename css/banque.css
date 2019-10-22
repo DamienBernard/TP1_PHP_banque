@@ -1,0 +1,203 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 28 déc. 2015, 18:14:45
+    Author     : joel
+*/
+
+
+body
+{
+	margin: 10px 0 ;
+	padding: 0 ;
+	text-align: center ;
+	font: 0.8em "Trebuchet MS", helvetica, sans-serif ;
+        background: aliceblue ;
+
+
+}
+header
+{
+	height: 250px ;
+	margin: 0 ;
+	background: url(../images/banque1.png) no-repeat left top ;
+	text-align: center ;
+}
+
+header > h1   /* > symbolise notion balise pere > balise fils */
+{
+	font-size: 250% ;
+
+}
+
+/* definir la position et la dimension du menu vertical*/
+nav#menuvertical
+{
+/*position : absolute;
+top : 280px;
+left : 20px;*/
+margin-top: 280px;
+float :left;
+width: 225px ;
+text-align: left ;
+
+}
+/* definir  le style d'une option */
+nav#menuvertical li > a
+{
+	line-height: 25px ;
+	font-size: 1.2em ;
+	font-weight: bold ;
+	letter-spacing: 2px ;
+	display: block ;
+	text-decoration: none ;
+}
+/* effet de relief à l'aide d'une image sur l option du menu survolé par la souris*/
+nav#menuvertical li > a:hover
+{
+	background: lightblue  ;
+}
+/* definir la ligne du menu horizontal */
+nav#menuhorizontal ul
+{
+	height: 35px ;
+	margin: 0 ;
+	padding: 0 ;
+	background: lightblue ;
+	list-style-type: none ;
+}
+
+/* aligner les options du menu */
+nav#menuhorizontal li
+{
+	float: left ;
+	text-align: center ;
+}
+
+/* style associé à chaque option du menu */
+nav#menuhorizontal li a
+{
+	width: 248px ;
+	line-height: 35px ;
+	font-size: 1.2em ;
+	font-weight: bold ;
+	letter-spacing: 2px ;
+	color: black ;
+	display: block ;
+	text-decoration: none ;
+	border-right: aliceblue ;
+}
+
+/* effet de surbrillance sur l option du menu survolé par la souris*/
+nav#menuhorizontal li a:hover
+{
+	background: lightcyan ;
+}
+
+div#conteneur
+{
+	width: 1000px ;
+	margin: 0 auto ;
+	text-align: left ;
+	border: 2px solid mediumslateblue ;
+	background: #fff ;
+}
+div#cadre1
+{       border-width: 5px;
+        width:150px;
+        margin-left:100px;
+        border:4px  mediumslateblue;
+        background-color:mediumslateblue;
+        border-style: groove;
+
+}
+div#total
+{       border-width: 5px;
+        width:300px;
+        margin-left:100px;
+        border:4px inset moccasin;
+        background-color:moccasin;
+        border-style: groove;
+
+
+}
+/* marges interieures et image de fond sur le corps */
+div#corps
+{
+	text-align: justify;
+	font-size: 15px ;
+	padding: 0 25px 0 100px ;
+        background: url(../images/Banque3.jpeg) no-repeat 10px 10px ;
+
+}
+
+/* titre de l'article */
+div#corps h1
+{
+	text-align: center ;
+	font-size: 25px;
+}
+
+/* image et sous partie de l'article */
+div#detail h2
+{
+	padding-left: 100px ;
+	line-height: 100px ;
+	font-size: 1.5em ;
+	background: url(../images/Banque2.jpg) no-repeat left bottom ;
+	color: mediumslateblue ;
+	border-bottom: 1px solid mediumslateblue ;
+}
+div#detail h1
+{
+        text-align: left ;
+    	padding-left: 100px ;
+	line-height: 40px ;
+	font-size: 1em ;
+	color: mediumslateblue ;
+	border-bottom: 1px solid mediumslateblue ;
+}
+
+table,th, td
+{
+border: 1px solid mediumslateblue;
+}
+
+th, td
+{
+height: 14px;
+padding:4px;
+vertical-align:middle;
+}
+
+
+.marge {
+margin-left: 6em;
+}
+.marge2 {
+
+}
+.marge3 {
+margin-left: 7em;
+}
+/* pied de page */
+footer
+{
+	margin: 0 ;
+	padding-right: 10px ;
+	line-height: 30px ;
+	text-align: right ;
+	color: #8a0 ;
+}
+p.copyr /* classe de style appliquée à p*/
+{
+color: red ;
+}
+
+.contact /* classe de style universelle */
+{
+color: blue ;
+}
